@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/introbg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -260,6 +260,13 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+#features .col-md-3{
+  margin-bottom: 25px;
+}
+#features .col-xs-6{
+  margin-bottom: 25px;
+}
+
 /* About Section */
 #about {
   padding: 100px 0;
